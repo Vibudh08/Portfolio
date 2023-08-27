@@ -1,0 +1,27 @@
+.icons{
+    margin: 3.5rem 0;
+    color: var(--white);
+    font-size: 3.2rem;
+    display: flex;
+    gap: 3rem;
+}
+.icons .icn{
+    transition: .3s;
+    cursor: pointer;
+    box-shadow: rgba(255, 221, 211, 0.534) 0px 3px 10px;
+}
+.icons .insta{
+    color: #f96847; 
+}
+
+.icons .linked{
+    color: #0072b1 ;
+}
+
+.icons .fb{
+    color: #8b9dc3;
+}
+.icons .icn:hover{
+    transform: scale(1.15);
+    box-shadow: var(--saffron) 0px 3px 10px;
+}

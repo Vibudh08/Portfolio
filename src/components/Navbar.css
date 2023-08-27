@@ -1,0 +1,88 @@
+.navbar{
+    width: 100%;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(255, 255, 255, 0.534) 0px 3px 10px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.navbar .logo{
+    margin-left: 10rem;
+    cursor: pointer;
+}
+.navbar .logo h3{
+    font-size: 2rem;
+    color: var(--white);
+}
+.navbar .logo h3 span{    
+    color: var(--saffron);
+    font-size: 3rem;
+}
+
+.navbar .links .bigscrn{
+    margin-right: 10rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 2.5rem;
+    font-weight: 200;
+    position: relative;
+}
+.navbar a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1.5px;
+    width: 0;
+    background-color: var(--saffron);
+    transition: .3s;
+}
+.navbar a:hover::after{
+    width: 100%;
+}
+.navbar a:hover{
+    color: var(--saffron);
+    font-weight: 900;
+}
+.hicon{
+    display: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media(max-width:850px){
+    .navbar .links{
+        margin-right: 4rem;
+    } 
+    .navbar a{
+        font-size: 1.3rem;
+    }
+    .navbar .links .bigscrn{
+        display: none;
+    }
+    .hicon{
+        display: inline-block;
+    }
+}
+
+@media(max-width:600px){
+    .navbar .logo{
+        margin-left: 5rem;
+    }
+    .navbar span img{
+        width: 6rem;
+    }
+}

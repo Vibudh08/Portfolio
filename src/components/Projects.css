@@ -1,0 +1,98 @@
+.proj{
+    margin-top: 10rem;
+}
+.proj h1{
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 3rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+}
+.maincontent{
+    text-align: left;
+}
+.maincontent span,h2,p{
+    margin: 1rem 0;
+}
+.maincontent span{
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: var(--saffron);
+}
+
+.maincontent h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.maincontent p{
+    font-size: 1.5rem;
+    max-width: 50rem;
+}
+.maincontent button{
+    background-color: var(--saffron);
+    color: #fff;
+    width: 13rem;
+    height: 4rem;
+    margin-top: 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+.maincontent button:hover{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: var(--saffron);
+}
+.main .mimage{
+    width: 45rem;
+    border-radius: 5rem;
+    overflow: hidden;
+    clip-path: polygon(14% 0, 100% 0%, 100% 100%, 15% 100%, 0% 50%);}
+.main .mimage img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media(max-width:1000px){
+    .main .mimage{
+        width: 35rem;
+    }
+    .maincontent p{
+        max-width: 40rem;
+    }
+}
+
+@media(max-width:750px){
+    .main .mimage{
+        width: 45rem;
+        margin-top: 2rem;
+    }
+    .maincontent p{
+        max-width: 40rem;
+    }
+}
+
+@media(max-width:460px){
+    .main .mimage{
+        width: 35rem;
+        margin-top: 2rem;
+    }
+    .maincontent p{
+        max-width: 30rem;
+    }
+    .proj h1{
+        text-align: center;
+        margin-bottom: 6rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,178 @@
+.about{
+    width: 100%;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.intro h3{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--white);
+}
+.intro span{
+    font-size: 3.5rem;
+    font-family: 'Neuton', serif;
+    font-weight: 900;
+    color: var(--saffron);
+    letter-spacing: .3rem;
+    margin: 1.5rem 0;
+}
+.intro p{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+.intro .btn button{
+    width: 10rem;
+    height: 4rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin: 2rem 0;
+    background-color: var(--saffron);
+    border: none;
+    color: var(--white);
+    transition: .3s;
+}
+.intro .btn .btns1{
+    width: 14rem;
+    margin-right: 2rem;
+}
+
+.intro .btn button:hover{
+    background-color:#f6f1a8;
+    color:  var(--saffron);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border:  1px solid var(--saffron);
+}
+.intro .aimg{
+    /* width: 40rem; */
+    width: 30%;
+    height: auto;
+    margin-top: 4rem;
+    background: linear-gradient(to top right, var(--saffron)  70%,var(--black) 30%);
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    overflow: visible;
+}
+.intro img{
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.education{
+    width: 100%; 
+    margin-top : 7rem; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.education h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.education .degrees{
+    width: 80rem;
+    height: 40rem;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    background-color:var(--saffron) ;
+    color: #fff;
+    border-radius: 2rem;
+    transition: .6s;
+    border: 1px solid var(--saffron);
+    background: linear-gradient(to top right, var(--saffron)  80%,var(--black) 20%);
+}
+.education .degrees ul li p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--white);
+}
+.education .degrees span{
+    font-size: 1.8rem;
+    letter-spacing: 0;
+    color: var(--white);
+}
+li::marker {
+    font-size: 3rem;
+}
+
+.education .degrees:hover{
+    color: var(--saffron);
+    border: 1px solid var(--saffron);
+    background: linear-gradient(to top right,var(--black) 80%, var(--saffron) 20%);
+}
+
+@media(max-width:840px){
+    .education .degrees{
+        width: 50rem;
+        height: 30rem;
+    }
+    .education .degrees ul li p{
+        font-size: 1.6rem;
+        font-weight: 900;
+    }
+    .education .degrees span{
+        font-size: 1.2rem;
+    }
+    li::marker {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:500px){
+    body{
+        background-color: #fff;
+    }
+    .intro .aimg{
+        width: 25rem;
+    }
+    .intro h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .intro span{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .education .degrees{
+        width: 35rem;
+        height: 30rem;
+        padding-left: 4rem;
+    }
+    .education .degrees ul li p{
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    .education .degrees span{
+        font-size: 1.1rem;
+    }
+    li::marker {
+        font-size: 1rem;
+    }
+
+}
+@media(max-width:360px){
+    .education .degrees{
+        width: 25rem;
+    }
+    .education .degrees ul li p{
+        font-size: 1rem;
+    }
+    .education .degrees span{
+        font-size: .7rem;
+    }
+    li::marker {
+        font-size: .7rem;
+    }
+}
