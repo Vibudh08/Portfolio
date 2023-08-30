@@ -31,10 +31,10 @@
 .form_control{
   margin-bottom: 10rem;
 }
+
 .form_control form{
   display: flex;
   flex-direction: column;
-  
 }
 
 .form_control input {
@@ -61,6 +61,7 @@
   width: fit-content;
   color: var(--white);
 }
+
 .form_control button{
   height: 4rem;
   background: var(--saffron);
@@ -135,102 +136,3 @@
     width: 20rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .contact_container {
-  display: flex;
-  max-width: 100rem;
-  margin: 0 auto;
-  margin-top: 4rem;
-  flex-direction: column;
-}
-.contact_container h2 {
-  text-align: center;
-  margin-bottom: 3rem;
-  font-size: 3rem;
-}
-.contact_form form {
-  display: flex;
-  gap: 3rem;
-  padding-bottom: 2rem;
-  flex-direction: column;
-}
-.form_control {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: relative;
-}
-.form_control input {
-  height: 4rem;
-  padding: 0 .8rem;
-  border: 1px solid rgb(9, 59, 59);
-  outline: none;
-}
-.form_control textarea {
-  padding: 2rem;
-}
-
-.form_control label {
-  font-size: 1.4rem;
-  position: absolute;
-  top: -1.2rem;
-  left: 1rem;
-  background-color: white;
-  padding: 0 1rem;
-}
-.contact_form button{
-    width: 20rem;
-    height: 4rem;
-    background-color: rgb(9, 59, 59);
-    border: none;
-    color: #fff;
-    font-size: 1.6rem;
-    border-radius: 1rem;
-    transition: .3s;
-}
-.contact_form button:hover{
-    background-color: #fff;
-    color: rgb(9, 59, 59);
-    border: 1px solid rgb(9, 59, 59);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.address{
-    text-align: center;
-    margin-top: 5rem;
-}
-.address p{
-    font-size: 1.5rem;
-    color: blue;
-}
-.address span{
-    font-size: 1.4rem;
-} */

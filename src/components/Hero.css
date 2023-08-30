@@ -53,7 +53,7 @@
 }
 .content h2 span{
     font-size: 5rem;
-    color: var(--saffron);
+    color:var(--saffron);
     letter-spacing:.5rem;
     font-family: 'Neuton', serif;
 
@@ -73,7 +73,7 @@
 .content .btns .btn1{
     width: 10rem;
     background-color: var(--saffron);
-    color: #f4f0c0;
+    color: #ffffff;
 }
 
 .content .btns .btn2{
@@ -90,7 +90,7 @@
 .content .btns .btn2:hover{
     background-color: var(--saffron);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #f6f1a8;
+    color: #ffffff;
     border: none;
 }
 
@@ -100,6 +100,7 @@
     }
     .himage img{
         width: 75%;
+        clip-path: ellipse(45% 40% at 41% 59%);
     }
     .content{
         margin-right: 5rem;
@@ -131,6 +132,9 @@
         font-size: 2.5rem;
         letter-spacing: .2rem;
     }
+    .navbar .links .navul-mobile{
+        display: none;
+    }
 }
 
 @media(max-width:550px){
@@ -138,12 +142,15 @@
         flex-direction: column;
     }
     .himage{
-        margin-left: 3.5rem;
+        margin-left: 50px;
     }
-    .himage img{
-        width: 65%;
-        
+    .himage img{  
+        width: 75%;
+        margin-left: 45px;
+        margin-top: 60px;
+        clip-path: ellipse(50% 40% at 47% 59%);
     }
+
     .content{
         margin-left: 5rem;
         margin-right: 0;
@@ -181,5 +188,11 @@
     }
     .content .btns button{
         font-size: 1.3rem;
+    }
+    .himage img{  
+        width: 65%;
+        margin-left: 45px;
+        margin-top: 60px;
+        clip-path: ellipse(50% 40% at 47% 59%);
     }
 }

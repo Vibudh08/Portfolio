@@ -8,8 +8,10 @@
   font-family: 'Poppins', sans-serif;
 }
 :root{
-  --black:#32322c;
-  --saffron:#f0932b;
+  /* --black:#32322c; */
+  --black:rgb(27, 26, 26);
+  /* --saffron:#f0932b; */
+  --saffron:rgb(232, 73, 73);
   --white:#fff;
   --lwhite:#c7c6c6;
 }

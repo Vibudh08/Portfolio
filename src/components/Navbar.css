@@ -24,17 +24,18 @@
     font-size: 3rem;
 }
 
-.navbar .links .bigscrn{
+.navbar .links .navul{
     margin-right: 10rem;
     display: flex;
     gap: 4rem;
+    list-style: none;
 }
 
 .navbar a{
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
     font-weight: 200;
     position: relative;
 }
@@ -64,18 +65,20 @@
 }
 
 @media(max-width:850px){
-    .navbar .links{
+    /* .navbar .links{
         margin-right: 4rem;
-    } 
+    }  */
     .navbar a{
         font-size: 1.3rem;
     }
-    .navbar .links .bigscrn{
-        display: none;
-    }
+        
     .hicon{
         display: inline-block;
     }
+    .navbar .hicon{
+        margin-right: 10px;
+    }
+    
 }
 
 @media(max-width:600px){
