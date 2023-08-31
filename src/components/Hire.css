@@ -8,7 +8,7 @@
     text-align: left;
 }
 .hcontent {
-    padding-left: 30px;
+    padding-left: 20px;
     width: 60%;
 }
 .hcontent h2{
@@ -21,11 +21,10 @@
     text-align: justify;
 }
 .image img{
-    width: 30rem;
-    margin-left: 50px;
+    width: 25rem;
+    margin-left: 70px;
     height: auto;
     clip-path: ellipse(51% 49% at 48% 49%);
-
 }
 
 @media(max-width:900px){

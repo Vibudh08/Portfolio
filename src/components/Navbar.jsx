@@ -6,10 +6,8 @@ import X from '../assets/close.png'
 
 
 export default function NavBar() {
-    const [isMobile,setiSMobile] =useState(true)
 
-    const router = useLocation();
-    let rout = router.pathname.slice(0,5)
+    const [isMobile,setiSMobile] =useState(true)
     return (
 
         <header className='navbar'>
@@ -40,7 +38,7 @@ export default function NavBar() {
                     </Link>
                 </li>
             </ul>
-            {/* )} */}
+            
             <button className='trigger' onClick={()=>setiSMobile(!isMobile)}>
                 {isMobile ? <img src={X} alt="" /> : <img src={Ham}/>}
             </button>

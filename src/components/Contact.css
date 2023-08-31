@@ -79,7 +79,7 @@
 
 @media(max-width:1200px){
   .form_control input{
-    width: 20rem;
+    width: 30rem;
   }
   .contact_detail .cimage{
     width: 40rem;
@@ -133,6 +133,9 @@
     width: 100%;
   }
   .contact_detail .cimage img{
-    width: 20rem;
+    width: 30rem;
+  }
+  .form_control input{
+    width: 30rem;
   }
 }
