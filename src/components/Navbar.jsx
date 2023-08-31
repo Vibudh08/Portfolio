@@ -1,30 +1,50 @@
-import React, { useState } from "react";
-import "./Navbar.css";
-import { Link } from "react-router-dom";
-import {GiHamburgerMenu} from 'react-icons/gi'
-import {AiOutlineClose} from 'react-icons/ai'
+import React,{useState} from 'react'
+import {Link, useLocation} from 'react-router-dom'
+import './NavBar.css'
+import Ham from '../assets/hamburger.png'
+import X from '../assets/close.png'
 
-const Navbar = () => {
-  const [hum,setHum]=useState(true);
 
-  return (
-    <nav className="navbar">
-      <div className="logo">
-        <h3><span>V</span>IBUDH</h3>
-      </div>
-      <div className="links">
-        <ul className={hum ? 'navul' :'navul navul-mobile' }>
-          <li><Link to={'/'}>Home</Link></li>
-          <li><Link to={'/about'}>About me</Link></li>
-          <li><Link to={'/project'}>Projects</Link></li>
-          <li><Link to={'/contact'}>Contact me</Link></li>
-        </ul>
-      </div>
-      <div className="hicon" onClick={()=>setHum(!hum)}>
-          {hum? <AiOutlineClose/> :<GiHamburgerMenu/>}     
-      </div>
-    </nav>
-  );
-};
+export default function NavBar() {
+    const [isMobile,setiSMobile] =useState(true)
 
-export default Navbar;
+    const router = useLocation();
+    let rout = router.pathname.slice(0,5)
+    return (
+
+        <header className='navbar'>
+        <div className='containerNav'>
+            <div className='logoName'>
+                <h3><span>V</span>IBUDH</h3>
+            </div>
+            <ul className={isMobile ? 'navul navul-mobile' : 'navul'}
+                >
+                <li className='navli' onClick={()=>{setiSMobile(false)}}>
+                    <Link to="/" >
+                        Home
+                    </Link>
+                </li>
+                <li className='navli' onClick={()=>{setiSMobile(false)}}>
+                    <Link to="/about" >
+                        About
+                    </Link>
+                </li>
+                <li className='navli' onClick={()=>{setiSMobile(false)}}>
+                    <Link to="/project">
+                        Project
+                    </Link>
+                </li>
+                <li className='navli' onClick={()=>{setiSMobile(false)}}>
+                    <Link to="/contact">
+                        Contact
+                    </Link>
+                </li>
+            </ul>
+            {/* )} */}
+            <button className='trigger' onClick={()=>setiSMobile(!isMobile)}>
+                {isMobile ? <img src={X} alt="" /> : <img src={Ham}/>}
+            </button>
+        </div>
+    </header>
+  )
+}
