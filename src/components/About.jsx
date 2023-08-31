@@ -21,7 +21,7 @@ const About = () => {
             <p>Web Developer</p>
             <Icons/>
             <div className='btn'>
-                <button className='btns1'>Download Resume</button>
+            <a href="Resume.Vib.pdf" download><button className='btns1'>Resume</button></a>
                <Link to={'/contact'}> <button>Hire Me</button></Link>
             </div>
             <div className='aimg' >

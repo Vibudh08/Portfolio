@@ -22,7 +22,7 @@ const Hero = () => {
             <p>Full Stack developer</p>
 
             <div className='btns'>
-                <button className='btn1'>Resume</button>
+            <a href="Resume.Vib.pdf" download><button className='btn1'>Resume</button></a>
                 <Link to={'/contact'}><button className='btn2'>Let's Talk</button></Link>
             </div>
             <Icons/>
