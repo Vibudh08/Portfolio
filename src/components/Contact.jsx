@@ -40,7 +40,7 @@ const Contact = () => {
           <img src={contact} alt="contact" />
         </div>
         <div className="form_control">
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} netlify>
             <label htmlFor="name">Name</label>
             <input type="text" id="name" name="user_name" required />
             <label htmlFor="email">Email</label>
