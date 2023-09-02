@@ -197,7 +197,7 @@
     .himage img{  
         width: 75%;
         margin-left: 25px;
-        margin-top: 45px;
+        margin-top: 30px;
         clip-path: ellipse(50% 40% at 47% 59%);
     }
 }
