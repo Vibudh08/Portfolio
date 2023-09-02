@@ -18,7 +18,7 @@ const Projects = () => {
               <span>{pdata.subtitle}</span>
               <h2>{pdata.title}</h2>
               <p>{pdata.description}</p>
-              <button>See Project</button>
+              <a href={pdata.link} target="_blank"><button>See Project</button></a>
             </div>
             <div className="mimage">
               <img src={pdata.pimg} />

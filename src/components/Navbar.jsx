@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Link, useLocation} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './NavBar.css'
 import Ham from '../assets/hamburger.png'
 import X from '../assets/close.png'
@@ -13,7 +13,7 @@ export default function NavBar() {
         <header className='navbar'>
         <div className='containerNav'>
             <div className='logoName'>
-                <h3><span>V</span>IBUDH</h3>
+                <Link to="/"><h3><span>V</span>IBUDH</h3></Link>
             </div>
             <ul className={isMobile ? 'navul navul-mobile' : 'navul'}
                 >

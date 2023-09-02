@@ -15,6 +15,35 @@
     box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.2);
 
 }
+.navbar a:hover{
+    color: var(--saffron);
+    font-weight: 900;
+    /* text-decoration: underline; */
+}
+
+.navbar a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1.5px;
+    width: 0;
+    background-color: var(--saffron);
+    transition: .3s;
+}
+ .navbar .navul a:hover::after{
+    width: 100%;
+} 
+
+.navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    /* margin-right: 2.5rem; */
+    font-weight: 200;
+    position: relative;
+}
+
 .containerNav{
     display: flex;
     padding-top: 8px;
@@ -40,11 +69,6 @@
     font-weight:bold;
     padding-right: 38px;
     cursor: pointer;
-}
-
-a{
-    color: white;
-    text-decoration: none;
 }
 
 .logoName{

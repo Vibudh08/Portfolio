@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
@@ -10,16 +10,18 @@ const Contact = () => {
     AOS.init({ duration: 1000 });
   }, []);
 
+  const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
     alert("Message Send");
 
     emailjs
       .sendForm(
-        "service_7rk3jdo",
-        "template_tnjphyi",
+        "service_7h44gl1",
+        "template_3yt2bxr",
         form.current,
-        "CIzX1vDlHf78mfluE"
+        "8b0vMzPp_hvudeaR6"
       )
       .then(
         (result) => {
@@ -38,7 +40,7 @@ const Contact = () => {
           <img src={contact} alt="contact" />
         </div>
         <div className="form_control">
-          <form onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
             <label htmlFor="name">Name</label>
             <input type="text" id="name" name="user_name" required />
             <label htmlFor="email">Email</label>
