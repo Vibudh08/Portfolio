@@ -49,10 +49,11 @@
         line-height: 2.2rem;
     }
     .image img{
-        padding: 1.5rem;
-        width: 30rem;
+        margin: 0;
+        margin-left: 20px;
     }
 }
+
 @media(max-width:350px){
     .image img{
         padding: .5rem;

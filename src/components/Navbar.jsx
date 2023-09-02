@@ -7,7 +7,7 @@ import X from '../assets/close.png'
 
 export default function NavBar() {
 
-    const [isMobile,setiSMobile] =useState(true)
+    const [isMobile,setiSMobile] =useState(false)
     return (
 
         <header className='navbar'>
