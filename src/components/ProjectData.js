@@ -12,7 +12,7 @@ const data = [
     pimg: HR,
     link: "https://github.com/Vibudh08/DGital",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
+      "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
     },
     {
       subtitle: "Groco",
@@ -20,7 +20,7 @@ const data = [
       pimg: Grocery,
       link: "https://github.com/Vibudh08/Groco_store",
       description:
-        "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
+        "E-commerce Grocery Management Store created as college project. Used NodeJs and MongoDb for back-end connectivity.",
     },
     {
       subtitle: "Calculator",
@@ -28,7 +28,7 @@ const data = [
       pimg: Calc,
       link: "https://github.com/Vibudh08/calculator",
       description:
-        "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
+        "Calculator created by using html, css and javascript.",
     }
   // {
   //   subtitle: "MERN",
