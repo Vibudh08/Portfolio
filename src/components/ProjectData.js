@@ -28,7 +28,7 @@ const data = [
       pimg: Calc,
       link: "https://github.com/Vibudh08/calculator",
       description:
-        "Calculator created by using html, css and javascript.",
+        "Calculator as a mini project created by using html, css and javascript.",
     }
   // {
   //   subtitle: "MERN",
