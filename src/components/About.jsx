@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom'
 import Icons from './Icons'
+import Resume from '../assets/Resume.Vib.pdf'
 
 const About = () => {
     useEffect(() => {
@@ -21,7 +22,7 @@ const About = () => {
             <p>Web Developer</p>
             <Icons/>
             <div className='btn'>
-            <a href="Resume.Vib.pdf" download><button className='btns1'>Resume</button></a>
+            <a href={Resume} download><button className='btns1'>Resume</button></a>
                <Link to={'/contact'}> <button>Hire Me</button></Link>
             </div>
             <div className='aimg' >

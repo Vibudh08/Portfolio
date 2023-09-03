@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import Icons from './Icons';
+import Resume from '../assets/Resume.Vib.pdf'
 
 
 const Hero = () => {
@@ -22,7 +23,7 @@ const Hero = () => {
             <p>Full Stack developer</p>
 
             <div className='btns'>
-            <a href="Resume.Vib.pdf" download><button className='btn1'>Resume</button></a>
+            <a href={Resume} download><button className='btn1'>Resume</button></a>
                 <Link to={'/contact'}><button className='btn2'>Let's Talk</button></Link>
             </div>
             <Icons/>

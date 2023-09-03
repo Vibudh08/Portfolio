@@ -5,6 +5,7 @@ import Ham from '../assets/hamburger.png'
 import X from '../assets/close.png'
 
 
+
 export default function NavBar() {
 
     const [isMobile,setiSMobile] =useState(false)
