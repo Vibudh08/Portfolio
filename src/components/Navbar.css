@@ -26,7 +26,7 @@
     position: absolute;
     left: 0;
     bottom: -2px;
-    height: 1.5px;
+    height: 2px;
     width: 0;
     background-color: var(--saffron);
     transition: .3s;
@@ -46,8 +46,8 @@
 
 .containerNav{
     display: flex;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     /* padding-left: 10px; */
     align-items: center;
 }
