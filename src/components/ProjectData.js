@@ -36,7 +36,7 @@ const data = [
 
   {
     subtitle: "SignUp and Login",
-    title: "User Authorization Sign up and Login Page",
+    title: "User Authorization",
     pimg: Reg_Login,
     link : "https://github.com/Vibudh08/User-Auth",
     description:
