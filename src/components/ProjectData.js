@@ -6,6 +6,7 @@ import Calc from "../assets/Calc.png";
 import Grocery from "../assets/grocery.png";
 // import Contact from "../assets/contact-img.png";
 const data = [
+
   {
     subtitle: "DGital",
     title: "HUMAN RESOURCE",
@@ -14,6 +15,7 @@ const data = [
     description:
       "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
     },
+
     {
       subtitle: "Groco",
       title: "Grocery Web Application",
@@ -22,42 +24,33 @@ const data = [
       description:
         "E-commerce Grocery Management Store created as college project. Used NodeJs and MongoDb for back-end connectivity.",
     },
+
     {
-      subtitle: "Calculator",
-      title: "Calculator",
-      pimg: Calc,
-      link: "https://calculator-vib.netlify.app/",
+      subtitle: "CRUD",
+      title: "CRUD Operations",
+      pimg: Crud,
+      link: "https://github.com/Vibudh08/CRUD",
       description:
-        "Calculator as a mini project created by using html, css and javascript.",
-    }
-  // {
-  //   subtitle: "MERN",
-  //   title: "CRUD Operation in MERN",
-  //   pimg: Mern_Crud,
-  //   description:
-  //     "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
-  // },
-  // {
-  //   subtitle: "SignUp and Login",
-  //   title: "Sign up and Login Page Using MERN",
-  //   pimg: Reg_Login,
-  //   description:
-  //     "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
-  // },
-  // {
-  //   subtitle: "ReactJs",
-  //   title: "CURD Operation Using ReactJs",
-  //   pimg: Crud,
-  //   description:
-  //     "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
-  // },
-  // {
-  //   subtitle: "Contact Page",
-  //   title: "Contact Us Frontend Design",
-  //   pimg: Contact,
-  //   description:
-  //     "Photo booth fam kinfolk cold-pressed sriracha legging jianbing microdosing tousled waistcoat.",
-  // },
+      "Create, Retrieve, Update and Delete operations. Created by expressJs using ejs template engine.",
+  },
+
+  {
+    subtitle: "SignUp and Login",
+    title: "User Authorization Sign up and Login Page",
+    pimg: Reg_Login,
+    description:
+    "SignUp and Login page with User Authorization. Created by expressJs using ejs template engine.",
+  },
+
+  {
+    subtitle: "Calculator",
+    title: "Calculator",
+    pimg: Calc,
+    link: "https://calculator-vib.netlify.app/",
+    description:
+      "Calculator as a mini project created by using html, css and javascript.",
+  }
+
 ];
 
 export default data;
