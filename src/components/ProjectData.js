@@ -26,7 +26,7 @@ const data = [
       subtitle: "Calculator",
       title: "Calculator",
       pimg: Calc,
-      link: "https://github.com/Vibudh08/calculator",
+      link: "https://calculator-vib.netlify.app/",
       description:
         "Calculator as a mini project created by using html, css and javascript.",
     }
