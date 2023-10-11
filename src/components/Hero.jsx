@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import Icons from './Icons';
-import Resume from '../assets/Vib.Resume.pdf'
+import Resume from '../assets/Vibudh.Resume.pdf'
 
 
 const Hero = () => {

@@ -1,7 +1,7 @@
 import HR from "../assets/HR.webp";
-// import Crud from "../assets/crud.jpg";
+import Crud from "../assets/crud.jpg";
 // import Mern_Crud from "../assets/Mern_Crud.png";
-// import Reg_Login from "../assets/Login.jpg";
+import Reg_Login from "../assets/Login.jpg";
 import Calc from "../assets/Calc.png";
 import Grocery from "../assets/grocery.png";
 // import Contact from "../assets/contact-img.png";
@@ -38,6 +38,7 @@ const data = [
     subtitle: "SignUp and Login",
     title: "User Authorization Sign up and Login Page",
     pimg: Reg_Login,
+    link : "https://github.com/Vibudh08/User-Auth",
     description:
     "SignUp and Login page with User Authorization. Created by expressJs using ejs template engine.",
   },
