@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
   return (
     <div className="proj">
-      <h1>The Projects That I Done</h1>
+      <h1>Projects I have created</h1>
       {data.map((pdata) => {
         return (
           <div className="main" data-aos="fade-up">
