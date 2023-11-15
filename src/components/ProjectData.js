@@ -11,7 +11,7 @@ const data = [
     subtitle: "Jobify",
     title: "A Job Tracking App",
     pimg: jobify,
-    link: "https://jobify-app-qn0r.onrender.com/",
+    link: "https://jobify-app-qn0r.onrender.com",
     description:
       "Jobify, created using the MERN stack, is a powerful job tracking application designed to help you manage the status of your job applications on a monthly basis.",
   },
