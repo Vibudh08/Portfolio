@@ -5,8 +5,13 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Home from './screen/Home'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <>
     <BrowserRouter>

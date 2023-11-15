@@ -1,4 +1,4 @@
-import React, { useEffect,useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
@@ -8,6 +8,7 @@ import contact from "../assets/contact-img.png";
 const Contact = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
   const form = useRef();
@@ -52,7 +53,6 @@ const Contact = () => {
         </div>
       </div>
     </div>
-
   );
 };
 

@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 const Projects = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
     <div className="proj">
@@ -18,7 +19,9 @@ const Projects = () => {
               <span>{pdata.subtitle}</span>
               <h2>{pdata.title}</h2>
               <p>{pdata.description}</p>
-              <a href={pdata.link} target="_blank"><button>See Project</button></a>
+              <a href={pdata.link} target="_blank">
+                <button>See Project</button>
+              </a>
             </div>
             <div className="mimage">
               <img src={pdata.pimg} />
