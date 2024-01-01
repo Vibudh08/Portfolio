@@ -19,27 +19,29 @@
   padding: 0 15rem;
 }
 .contact_detail .cimage{
-  width: 60rem;
-  height: auto;
+  width: 55rem;
+  height: 310px;
 }
 .contact_detail .cimage img{
   width: 100%;
   object-fit: cover;
   object-position: center;
+  margin-left: 7rem;
 }
 
 .form_control{
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .form_control form{
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .form_control input {
   height: 4rem;
-  width: 35rem;  
+  width: 50rem;  
 }
 .form_control textarea,input{
   background: white;

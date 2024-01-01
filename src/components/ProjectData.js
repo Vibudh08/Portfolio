@@ -4,7 +4,6 @@ import Crud from "../assets/crud.jpg";
 import Reg_Login from "../assets/Login.jpg";
 import Calc from "../assets/Calc.png";
 import groco from "../assets/groco.png";
-import Contact from "../assets/contact-img.png";
 
 const data = [
   {
@@ -51,14 +50,6 @@ const data = [
       "SignUp and Login page with User Authorization. Created by expressJs using ejs template engine.",
   },
 
-  {
-    subtitle: "Email Js",
-    title: "Contact From",
-    pimg: Contact,
-    link: "https://emailjs-vib.netlify.app/",
-    description:
-      "Calculator as a mini project created by using html, css and javascript.",
-  },
   {
     subtitle: "Calculator",
     title: "Calculator",

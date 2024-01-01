@@ -30,9 +30,6 @@ const About = () => {
             <button>Hire Me</button>
           </Link>
         </div>
-        <div className="aimg">
-          <img src={about} alt="My image" data-aos="fade-up" />
-        </div>
       </div>
 
       <div className="education" data-aos="fade-up">

@@ -37,9 +37,6 @@ const Contact = () => {
     <div className="contact">
       <h1>Get in Touch</h1>
       <div className="contact_detail">
-        <div className="cimage">
-          <img src={contact} alt="contact" />
-        </div>
         <div className="form_control">
           <form ref={form} onSubmit={sendEmail} netlify>
             <label htmlFor="name">Name</label>
@@ -50,6 +47,9 @@ const Contact = () => {
             <textarea id="message" name="message" rows="8" required />
             <button>Send</button>
           </form>
+        </div>
+        <div className="cimage">
+          <img src={contact} alt="contact" />
         </div>
       </div>
     </div>
