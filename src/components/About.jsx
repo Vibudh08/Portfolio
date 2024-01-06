@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./About.css";
 import Skill from "./Skill";
-import about from "../assets/vibudh2.png";
 import Hob from "./Hob";
 import AOS from "aos";
 import "aos/dist/aos.css";

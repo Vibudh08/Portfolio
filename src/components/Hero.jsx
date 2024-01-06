@@ -24,7 +24,7 @@ const Hero = () => {
         <h2>
           <span>VIBUDH RATHORE</span>
         </h2>
-        <p>Full Stack developer</p>
+        <p>Web developer</p>
 
         <div className="btns">
           <a href={Resume} download>

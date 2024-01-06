@@ -4,6 +4,7 @@
   margin: 0 auto;
   margin-top: 10rem;
   flex-direction: column;
+  margin-bottom: 0;
 }
 .contact h1{
   text-align: center;
@@ -17,6 +18,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 0 15rem;
+  margin-bottom: 7rem;
 }
 .contact_detail .cimage{
   width: 55rem;
@@ -29,7 +31,7 @@
   margin-left: 7rem;
 }
 
-.form_control{
+.form_control{ 
   margin-bottom: 5rem;
 }
 
