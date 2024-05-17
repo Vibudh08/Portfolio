@@ -1,4 +1,4 @@
-import jobify from '../assets/jobify.png'
+import admin from '../assets/admin.jpg'
 import dgital from '../assets/DGital.png'
 import Crud from "../assets/crud.jpg";
 import Reg_Login from "../assets/Login.jpg";
@@ -7,12 +7,17 @@ import groco from "../assets/groco.png";
 
 const data = [
   {
-    subtitle: "Jobify",
-    title: "A Job Tracking App",
-    pimg: jobify,
-    link: "https://jobify-app-qn0r.onrender.com",
-    description:
-      "Jobify, created using the MERN stack, is a powerful job tracking application designed to help you manage the status of your job applications on a monthly basis.",
+    subtitle: "Admin Panel",
+    title: "Admin Panel",
+    pimg: admin,
+    link: "https://github.com/Vibudh08/Admin_Panel_with_PHP",
+    description: [
+      "Created using PHP and MySQL. ",
+      "User registration with validation for fields like email, password. ",
+      "User login with authentication by using session. ",
+      "User roles and permissions for authorization. ",
+      "CRUD operations for user data",
+    ],
   },
   {
     subtitle: "DGital",
@@ -36,18 +41,9 @@ const data = [
     subtitle: "CRUD with User Auth",
     title: "CRUD Operations",
     pimg: Crud,
-    link: "https://github.com/Vibudh08/CRUD-with-User-Authorization",
+    link: "https://github.com/Vibudh08/CRUD-with-User-Authentiation-in-PHP",
     description:
-      "Create, Retrieve, Update and Delete operations. Created by expressJs using ejs template engine.",
-  },
-
-  {
-    subtitle: "SignUp and Login",
-    title: "User Authorization",
-    pimg: Reg_Login,
-    link: "https://github.com/Vibudh08/User-Auth",
-    description:
-      "SignUp and Login page with User Authorization. Created by expressJs using ejs template engine.",
+      "Create, Retrieve, Update and Delete operations. Created by using PHP and MySQL.",
   },
 
   {

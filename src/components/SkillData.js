@@ -1,8 +1,8 @@
 import React from '../assets/React.png'
-import Node from '../assets/nodejs.png'
-import mongodb from '../assets/mongodb.jpg'
+import PHP from '../assets/php.png'
+import laravel from '../assets/laravel.png'
+import mySql from '../assets/mysql.png'
 import python from '../assets/python.png'
-import Express from '../assets/express-js.webp'
 import Javascript from '../assets/javascript.avif'
 const Sdata=[
     {
@@ -10,24 +10,25 @@ const Sdata=[
         heading:'REACT JS'
     },
     {
-        img:Node,
-        heading:'NODE JS'
+        img:PHP,
+        heading:'PHP'
     },
     {
-        img:mongodb,
-        heading:'MONGO DB'
+        img:laravel,
+        heading:'Laravel'
     },
     {
-        img:Express,
-        heading:'EXPRESS JS'
+        img:mySql,
+        heading:'MySQL'
+    },
+    
+    {
+        img:Javascript,
+        heading:'JAVASCRIPT'
     },
     {
         img:python,
         heading:'PYTHON'
-    },
-    {
-        img:Javascript,
-        heading:'JAVASCRIPT'
     }
 ];
 

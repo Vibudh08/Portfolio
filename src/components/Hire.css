@@ -21,12 +21,12 @@
     text-align: justify;
 }
 .image img{
-    width: 25rem;
+    width: 27rem;
     margin-left: 70px;
     height: auto;
-    clip-path: ellipse(51% 49% at 48% 49%);
+    /* border-radius: 10px; */
+    clip-path: ellipse(51% 43% at 51% 50%);
 }
-
 @media(max-width:900px){
     .image img{
         width: 18rem;

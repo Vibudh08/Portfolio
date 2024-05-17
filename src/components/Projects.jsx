@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 10 });
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
