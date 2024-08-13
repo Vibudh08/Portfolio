@@ -7,6 +7,14 @@ import groco from "../assets/groco.png";
 
 const data = [
   {
+    subtitle: "DGital",
+    title: "Human Resource App",
+    pimg: dgital,
+    link: "https://github.com/Vibudh08/DGital",
+    description:
+    "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
+  },
+  {
     subtitle: "Admin Panel",
     title: "Admin Panel",
     pimg: admin,
@@ -18,14 +26,6 @@ const data = [
       "User roles and permissions for authorization. ",
       "CRUD operations for user data",
     ],
-  },
-  {
-    subtitle: "DGital",
-    title: "Human Resource App",
-    pimg: dgital,
-    link: "https://github.com/Vibudh08/DGital",
-    description:
-      "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
   },
 
   {
