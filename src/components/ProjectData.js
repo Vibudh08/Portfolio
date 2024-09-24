@@ -1,21 +1,29 @@
-import admin from '../assets/admin.jpg'
-import dgital from '../assets/DGital.png'
+import admin from "../assets/admin.jpg";
+import dgital from "../assets/DGital.png";
 import Crud from "../assets/crud.jpg";
-import Reg_Login from "../assets/Login.jpg";
 import Calc from "../assets/Calc.png";
 import groco from "../assets/groco.png";
+import ai from "../assets/ai.png";
 
 const data = [
+  {
+    // subtitle: "AI Chat App",
+    title: "AI Chat App",
+    pimg: ai,
+    link: "https://main--ai-chatapp-vib.netlify.app/",
+    description:
+      "Developed a fully functional AI-based chat application using modern web technologies (React, JavaScript, etc). Integrated Google Gemini 2.0 API for enhanced AI-driven features,enabling real-time, responses within the chat application.",
+  },
   {
     subtitle: "DGital",
     title: "Human Resource App",
     pimg: dgital,
     link: "https://github.com/Vibudh08/DGital",
     description:
-    "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
+      "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
   },
   {
-    subtitle: "Admin Panel",
+    // subtitle: "Admin Panel",
     title: "Admin Panel",
     pimg: admin,
     link: "https://github.com/Vibudh08/Admin_Panel_with_PHP",
@@ -38,7 +46,7 @@ const data = [
   },
 
   {
-    subtitle: "CRUD with User Auth",
+    // subtitle: "CRUD with User Auth",
     title: "CRUD Operations",
     pimg: Crud,
     link: "https://github.com/Vibudh08/CRUD-with-User-Authentiation-in-PHP",
@@ -47,7 +55,7 @@ const data = [
   },
 
   {
-    subtitle: "Calculator",
+    // subtitle: "Calculator",
     title: "Calculator",
     pimg: Calc,
     link: "https://calculator-vib.netlify.app/",
