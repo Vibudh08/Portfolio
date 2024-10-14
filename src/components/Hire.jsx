@@ -13,8 +13,8 @@ const Hire = () => {
       <div className="hcontent">
         <h2>Why Me?</h2>
         <p>
-          As a passionate web developer, I have knowledge in ReactJs, PHP,
-          Laravel and MySQL technologies with industry working experience.
+          As a passionate web developer, I have knowledge in ReactJs, Javascript,
+          jQuery and MySQL technologies with industry working experience.
           I have keen interest in building clean and modern web appliactions.
           my academic background in MCA has equipped me with the necessary skills
           in software development, database management, and problem-solving.
