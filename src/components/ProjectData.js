@@ -18,7 +18,7 @@ const data = [
     subtitle: "DGital",
     title: "Human Resource App",
     pimg: dgital,
-    link: "https://github.com/Vibudh08/DGital",
+    link: "https://d-gital-xi.vercel.app/",
     description:
       "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
   },
