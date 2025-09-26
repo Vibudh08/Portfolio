@@ -1,71 +1,75 @@
-import React,{useState} from 'react'
-import './Navbar.css'
-import {Link} from 'react-router-dom'
-import Ham from '../assets/hamburger.png'
-import X from '../assets/close.png'
-
-
+import React, { useState } from "react";
+import "./Navbar.css";
+import { NavLink } from "react-router-dom";
+import Ham from "../assets/hamburger.png";
+import X from "../assets/close.png";
 
 export default function NavBar() {
+  const [isMobile, setiSMobile] = useState(false);
 
-    const [isMobile,setiSMobile] =useState(false)
-    return (
-      <header className="navbar">
-        <div className="containerNav">
-          <div className="logoName">
-            <Link to="/">
-              <h3>
-                <span>V</span>IBUDH
-              </h3>
-            </Link>
-          </div>
-          <ul className={isMobile ? "navul navul-mobile" : "navul"}>
-            <li
-              className="navli"
-              onClick={() => {
-                setiSMobile(false);
-              }}
-            >
-              <Link to="/">Home</Link>
-            </li>
-            <li
-              className="navli"
-              onClick={() => {
-                setiSMobile(false);
-              }}
-            >
-              <Link to="/about">About</Link>
-            </li>
-            <li
-              className="navli"
-              onClick={() => {
-                setiSMobile(false);
-              }}
-            >
-              <Link to="/experience">Experience</Link>
-            </li>
-            <li
-              className="navli"
-              onClick={() => {
-                setiSMobile(false);
-              }}
-            >
-              <Link to="/project">Project</Link>
-            </li>
-            <li
-              className="navli"
-              onClick={() => {
-                setiSMobile(false);
-              }}
-            >
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-
-          <button className="trigger" onClick={() => setiSMobile(!isMobile)}>
-            {isMobile ? <img src={X} alt="" /> : <img src={Ham} />}
-          </button>
+  return (
+    <header className="navbar">
+      <div className="containerNav">
+        <div className="logoName">
+          <NavLink to="/" onClick={() => setiSMobile(false)}>
+            <h3>
+              <span>V</span>IBUDH
+            </h3>
+          </NavLink>
         </div>
-      </header>
-    );
+
+        <ul className={isMobile ? "navul navul-mobile" : "navul"}>
+          <li className="navli">
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={() => setiSMobile(false)}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={() => setiSMobile(false)}
+            >
+              About
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              to="/experience"
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={() => setiSMobile(false)}
+            >
+              Experience
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              to="/project"
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={() => setiSMobile(false)}
+            >
+              Project
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={() => setiSMobile(false)}
+            >
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+
+        <button className="trigger" onClick={() => setiSMobile(!isMobile)}>
+          {isMobile ? <img src={X} alt="" /> : <img src={Ham} alt="" />}
+        </button>
+      </div>
+    </header>
+  );
 }

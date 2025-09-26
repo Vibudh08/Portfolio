@@ -63,6 +63,12 @@
     z-index: 1 ;
 }
 
+.navul .active {
+  color: var(--saffron);   /* highlight color */
+  font-weight: bold;
+  border-bottom: 2px solid var(--saffron);
+}
+
 .navli{
     padding: 14px;
     font-size: 16px;
