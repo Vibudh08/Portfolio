@@ -40,11 +40,29 @@ const Contact = () => {
         <div className="form_control">
           <form ref={form} onSubmit={sendEmail} netlify>
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" name="user_name" required />
+            <input
+              placeholder="Enter your name"
+              type="text"
+              id="name"
+              name="user_name"
+              required
+            />
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" name="user_email" required />
+            <input
+              placeholder="Enter your email"
+              type="email"
+              id="email"
+              name="user_email"
+              required
+            />
             <label htmlFor="text">Message</label>
-            <textarea id="message" name="message" rows="8" required />
+            <textarea
+              placeholder="Write your message"
+              id="message"
+              name="message"
+              rows="8"
+              required
+            />
             <button>Send</button>
           </form>
         </div>

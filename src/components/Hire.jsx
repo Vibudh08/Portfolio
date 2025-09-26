@@ -13,11 +13,12 @@ const Hire = () => {
       <div className="hcontent">
         <h2>Why Me?</h2>
         <p>
-          As a passionate web developer, I have knowledge in ReactJs, Javascript,
-          jQuery and MySQL technologies with industry working experience.
-          I have keen interest in building clean and modern web appliactions.
-          my academic background in MCA has equipped me with the necessary skills
-          in software development, database management, and problem-solving.
+          I am a Frontend Developer with 1+ year of experience in building
+          responsive and scalable web applications using React.js, Next.js,
+          Redux, Tailwind CSS, and JavaScript (ES6+). I also have experience in
+          API integration, authentication, and MongoDB database management. With
+          my MCA background, I focus on delivering clean, maintainable code and
+          impactful digital solutions.
         </p>
       </div>
       <div className="image">

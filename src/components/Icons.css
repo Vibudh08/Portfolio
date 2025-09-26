@@ -1,28 +1,28 @@
-.icons{
-    margin: 3.5rem 0;
-    color: yellow;
-    font-size: 3.2rem;
-    display: flex;
-    gap: 3rem;
-    margin-left: 5px;
-}
-.icons .icn{
-    transition: .3s;
-    cursor: pointer;
-    box-shadow: rgba(255, 221, 211, 0.534) 0px 3px 10px;
-}
-.icons .insta{
-    color: #f96847; 
+.icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
-.icons .linked{
-    color: #0072b1 ;
+.icn {
+  font-size: 20px;      /* change size as needed */
+  transition: transform 150ms ease, color 150ms ease, opacity 150ms ease;
+  cursor: pointer;
+  color: #111827;       /* default color - dark */
+  opacity: 0.95;
 }
 
-.icons .fb{
-    color: #8b9dc3;
+/* hover/focus effects */
+.icn:hover,
+.icn:focus {
+  transform: translateY(-3px);
+  color: #2563eb;       /* accent color on hover (blue) */
+  opacity: 1;
 }
-.icons .icn:hover{
-    transform: scale(1.15);
-    box-shadow: var(--saffron) 0px 3px 10px;
+
+/* for accessibility: visible focus outline */
+a:focus .icn {
+  outline: 2px solid #93c5fd;
+  outline-offset: 4px;
+  border-radius: 4px;
 }

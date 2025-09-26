@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Home from './screen/Home'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import { useEffect } from 'react'
+import Experience from './components/Experience'
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <Route path='/project' element={<Projects/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/experience' element={<Experience/>}/>
     </Routes>
     </BrowserRouter>
     <Footer/>

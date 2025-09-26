@@ -10,10 +10,11 @@
     text-transform: uppercase;
     margin: 5rem 0;
 }
-.mainskills{
-    display: flex;
-    flex-wrap: wrap;
+.mainskills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
 }
+
 .container .skills{
     display: flex;
     justify-content: space-around;
