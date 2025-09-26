@@ -1,13 +1,47 @@
-import admin from "../assets/admin.jpg";
 import dgital from "../assets/DGital.png";
-import Crud from "../assets/crud.jpg";
 import Calc from "../assets/Calc.png";
 import groco from "../assets/groco.png";
 import ai from "../assets/ai.png";
+import admirer from "../assets/admirer.png";
+import next from "../assets/next.png";
+import nonbro from "../assets/nonbro.png";
+import nonbro_react from "../assets/nonbro_react.png";
 
 const data = [
   {
-    // subtitle: "AI Chat App",
+    subtitle: "E-commerce",
+    title: "Admirer",
+    pimg: admirer,
+    link: "https://admirer.in/",
+    description:
+      "Admirer is a responsive e-commerce platform built with React.js and Tailwind CSS. It features secure Razorpay payment integration and NimbusPost API for automated shipping. The platform supports product management, order tracking, and user data handling via REST APIs.",
+  },
+  {
+    subtitle: "Full stack website",
+    title: "Restro Management App",
+    pimg: next,
+    link: "https://next-js-restro-management-app-6r7s.vercel.app/",
+    description:
+      "A full-stack application built with Next.js and MongoDB to help restaurant owners manage their business. Includes secure authentication with validation and local storage for safe user access. Backend is powered by Next.js API routes with MongoDB for reliable data storage and processing.",
+  },
+  {
+    subtitle: "Real Estate Platform",
+    title: "Non-Brokerage React ",
+    pimg: nonbro_react,
+    link: "https://jazzy-basbousa-5de1a5.netlify.app/",
+    description:
+      "A real estate platform prototype built with React.js to showcase a modern and responsive user interface. Currently designed as a static UI, it demonstrates clean layouts, property listing screens, and filtering options.",
+  },
+  {
+    subtitle: "Real Estate Platform",
+    title: "Non-Brokerage",
+    pimg: nonbro,
+    link: "https://btjnonbrokerage.com/",
+    description:
+      "A real estate platform built to simplify property discovery and user engagement. Includes advanced property listing and filtering by location, BHK, budget, and availability. Developed with team collaboration on Git workflows, ensuring clean merges and faster delivery.",
+  },
+  {
+    subtitle: "Talk with AI",
     title: "AI Chat App",
     pimg: ai,
     link: "https://main--ai-chatapp-vib.netlify.app/",
@@ -23,20 +57,6 @@ const data = [
       "Created a Human Resource website on ReactJs during internship. Used API for data integration.",
   },
   {
-    // subtitle: "Admin Panel",
-    title: "Admin Panel",
-    pimg: admin,
-    link: "https://github.com/Vibudh08/Admin_Panel_with_PHP",
-    description: [
-      "Created using PHP and MySQL. ",
-      "User registration with validation for fields like email, password. ",
-      "User login with authentication by using session. ",
-      "User roles and permissions for authorization. ",
-      "CRUD operations for user data",
-    ],
-  },
-
-  {
     subtitle: "Groco",
     title: "Grocery Web Application",
     pimg: groco,
@@ -44,16 +64,6 @@ const data = [
     description:
       "E-commerce Grocery Management Store created as college project.",
   },
-
-  {
-    // subtitle: "CRUD with User Auth",
-    title: "CRUD Operations",
-    pimg: Crud,
-    link: "https://github.com/Vibudh08/CRUD-with-User-Authentiation-in-PHP",
-    description:
-      "Create, Retrieve, Update and Delete operations. Created by using PHP and MySQL.",
-  },
-
   {
     // subtitle: "Calculator",
     title: "Calculator",

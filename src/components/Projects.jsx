@@ -3,6 +3,7 @@ import "./Projects.css";
 import data from "./ProjectData";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   useEffect(() => {
@@ -24,7 +25,9 @@ const Projects = () => {
               </a>
             </div>
             <div className="mimage">
-              <img src={pdata.pimg} />
+              <Link to={pdata.link}>
+                <img src={pdata.pimg} sty/>
+              </Link>
             </div>
           </div>
         );
