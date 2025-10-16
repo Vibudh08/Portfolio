@@ -8,9 +8,9 @@ export default function Experience() {
     {
       company: "BTJ Alpha Technology",
       role: "Frontend Developer",
-      duration: "Jul 2024 – Present",
+      duration: "Jul 2024 – Oct 2025",
       type: "Full-time",
-      time: "1 yr 3 mos",
+      time: "1 yr 4 mos",
       img: btj,
       description:
         "Built and maintained responsive web applications using React.js and Tailwind CSS. Developed Admirer.in (e-commerce platform) with product catalog, cart, checkout, payments, and shipping integration. Contributed to company website and real estate platform (property listings, dashboards, authentication).",

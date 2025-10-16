@@ -6,6 +6,7 @@ import admirer from "../assets/admirer.png";
 import next from "../assets/next.png";
 import nonbro from "../assets/nonbro.png";
 import nonbro_react from "../assets/nonbro_react.png";
+import jobify from "../assets/jobify.png";
 
 const data = [
   {
@@ -15,6 +16,14 @@ const data = [
     link: "https://admirer.in/",
     description:
       "Admirer is a responsive e-commerce platform built with React.js and Tailwind CSS. It features secure Razorpay payment integration and NimbusPost API for automated shipping. The platform supports product management, order tracking, and user data handling via REST APIs.",
+  },
+  {
+    subtitle: "Job App",
+    title: "Jobify",
+    pimg: jobify,
+    link: "https://jobify-1-jqym.onrender.com/",
+    description:
+      "Built a full-stack job management system allowing users to create, read, update, and delete (CRUD) jobs with statusbtracking. Implemented secure authentication and authorization for login/register, including a demo user for easy access. Designed interactive dashboards to view job statistics and insights using a responsive UI.",
   },
   {
     subtitle: "Full stack website",
